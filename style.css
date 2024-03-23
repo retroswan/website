@@ -16,7 +16,24 @@ body {
     min-height: 100%;
 }
 
+a {
+    color: #FFFF00;
+}
+
 h1 {
     margin: 0;
     font-size: 14vw;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 1em;
+    font-size: 2vw;
 }
