@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: retroswan
 title: About
 permalink: /about/
 ---
