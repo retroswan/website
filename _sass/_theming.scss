@@ -1,0 +1,25 @@
+$color-blue: #2F3CBE;
+$color-black: #000000;
+$color-magenta: #C011D7;
+$color-white: #FFFFFF;
+$color-pink: #FF76A4;
+
+a {
+    color: $color-pink;
+}
+
+body {
+    background-color: $color-blue;
+    color: $color-white;
+}
+
+#logo {
+    image-rendering: pixelated;
+    margin-right: 1em;
+    height: 64px;
+    width: 64px;
+}
+
+main {
+    background-color: $color-black;
+}

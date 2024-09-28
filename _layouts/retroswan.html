@@ -12,15 +12,30 @@
 <body>
 
 <header>
-    <h1>retroswan</h1>
+    <div class="container">
+        <img src="assets/images/logo.png" id="logo" alt="retroswan's avatar">
+        
+        <h1>retroswan</h1>
+        
+        <nav>
+            <ul class="navigation">
+                <li><a href="/" class="navigation__link">Home</a></li>
+                <li><a href="/blog" class="navigation__link">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
-    {{ content }}
+    <div class="container">
+        {{ content }}
+    </div>
 </main>
 
 <footer>
-    retroswan
+    <div class="container">
+        retroswan
+    </div>
 </footer>
 
 </body>
